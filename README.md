@@ -23,7 +23,7 @@
 <br/>
 
 <div align="center">
-    <img src="./images/release.png">
+    <img src="./images/releases.png">
 </div>
 
 ## Step 2 :
