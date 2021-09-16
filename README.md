@@ -29,8 +29,8 @@
 ## Step 2 :
 
 - Change the Tittle of the website to your name in index.html at ```line no. 10```
-<br/>
-``` html
+
+```html
 <head>
     ...
     <title>Your Name</title>
