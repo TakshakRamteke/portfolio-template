@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #272b32;
+    color: white;
+}
+.intro{
+    width: maxvh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.container h1{
+    -webkit-text-stroke: 2px black;
+    text-shadow: 4px 4px 0 blueviolet;
+    font-weight: bolder;
+    font-size: 5.6rem;
+}
+.container p{
+    padding: 10px;
+    font-size: 2.35rem;
+    /*text-align: center;*/
+    color: grey;
+}
+
+.image{
+    margin-left: 10%;
+    align-self: center;
+    display: inline-block;
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -10px -10px -10.5px white;
+    /*filter: grayscale(100);*/
+    image-rendering: pixelated;
+
+}
+.section_1{
+    width: maxvh;
+    padding-left: 9%;
+}
+.section_1 .abtm{
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+.details{
+    width: maxvh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details .summary{
+    height: max-content;
+    width: 30rem;
+    padding: 0.6em;
+    border-radius: 0.8em;
+    border: 1px solid white;
+    box-shadow: 5px 5px 0 White;
+    
+}
+.summary_text{
+    font-size: 1.35rem;
+}
+.section_1 .cntwme{
+    padding-top: 6rem;
+    padding-left: 10rem;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+.contactme{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: right;
+}
+.contactme .social_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*padding-left: 10rem;*/
+    list-style: none;
+}
+.contactme li{
+    border-radius: 1em;
+    margin-left: 1em;
+    display: inline-block;
+}
+.contactme li img{
+    border: 1px solid white;
+    border-radius: 0.8em;
+}
+.skills .heading{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 3.5em;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+.skills_list{
+    padding-top: 0.8rem;
+    padding-left: 9%;
+}
+.skills_list h3{
+    padding-top: 5%;
+    -webkit-text-stroke: 1px black;
+    font-size: 2em;
+    font-weight: bold;
+}
+.skills_list .skill1{
+    padding-top: 2%;
+    height: 2em;
+    width: 75%;
+    border-radius: 2em;
+}
+.progress{
+    border: solid 1px white;
+    display: flex;
+    height:inherit;
+    width: 75%;
+    background-color: blueviolet; 
+    border-radius: inherit;
+    align-items: center;
+}
+.progress span{
+    padding: 0 0 0 15px;
+    font-size: 1.5em;
+}
+
+.skills_list .skill3{
+    padding-top: 2%;
+    height: 2em;
+    width: 85%;
+    border-radius: 2em;
+}
+.skills_list .skill4{
+    padding-top: 2%;
+    height: 2em;
+    width: 60%;
+    border-radius: 2em;
+}
+.othertech{
+    /*width: maxvh;*/
+    padding-top: 8em;
+    padding-bottom: 4em;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.othertech h2{
+    font-size: 2.8em;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.techgrid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    white-space: normal;
+}
+.tech{
+    text-align: center;
+    padding: 2em 2em 2em 2em;
+}
+.experience h2{
+    width: maxvh;
+    padding-top: 1.3em;
+    padding-left: 9%;
+    font-size: 3em;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+.vol-experience h2{
+    width: maxvh;
+    padding-top: 1.3em;
+    padding-left: 9%;
+    font-size: 3em;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+.education h2{
+    width: maxvh;
+    padding-top: 1.3em;
+    padding-left: 9%;
+    font-size: 3em;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+.projects h2{
+    /*width: maxvh;*/
+    /*padding-top: 1.3em;*/
+    padding-left: 9%;
+    font-size: 3em;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px 0 blueviolet;
+}
+.project-area{
+    padding-top: 5%;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.project-card{
+    margin: 1em 1em auto;
+    background-color: white;
+    color: black;
+    width: min-content;
+    border: 2px solid white;
+    border-radius: .6em;
+    transition: box-shadow .2s ease-out;
+}
+.project-card:hover{
+    box-shadow: .6em .6em 0 blueviolet;
+}
+.project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-image{
+    border-radius: 0.5em;
+    margin-bottom: 10px
+}
+.project-tittle{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+.project-date{
+    font-size: .9em;
+    color: grey;
+    align-self: flex-start;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.project-about{
+    font-size: 1.3em;
+    padding: 5px 5px 5px 5px;
+}
+.project-link{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(51, 51, 230);
+    padding: 4px 5px 4px 5px;
+    border-radius: .3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.resume{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    font-size: 1.5em;
+}
+.resume h2{
+    padding: 9px 9px 9px 9px ;
+    border: 2px solid white;
+    border-radius: 0.15em;
+    box-shadow: 5px 5px 0 White;
+}
+.resume a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* CSS for Timeline (Completed)*/
+.timeline-section{
+	background-color: #272b32;
+	min-height: 40.5vh;
+	padding: 50px 15px;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: white;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: blueviolet;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-date{
+	font-size: 1.6em;
+	color: white;
+	margin:6px 0 15px;
+}
+.timeline-content{
+    border: 1.5px solid white;
+    box-shadow: 5px 5px 0 white;
+    background-color: #2f363e;
+	padding: 30px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 1.35em;
+    font-weight: bold;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #c8c8c8;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/*-------------RESPONSIVNESS---------------*/
+
+@media screen and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+    }
+    .image{
+        margin-left: 0;
+        display: inline-block;
+        height: 20em;
+        width: 20em;
+        border-radius: 100%;
+    }
+    .section_1{
+        width: maxvh;
+        padding-left: 0;
+        padding: 1em 1em 1em 1em;
+    }
+    .summary h2{
+        padding-bottom: 1em;
+    }
+    .details{
+        padding: 0;
+        margin: 0;
+        width: maxvh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .details .summary{
+        height: 24.5rem;
+        width: 30rem;
+    }
+    .summary_text{
+        font-size: 1.35rem;
+    }
+    .section_1 .cntwme{
+        align-self: flex-start;
+        padding: 0;
+        margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .contactme .social_list{
+        margin: 0;
+        padding: 0;
+    }
+    .contactme .github{
+        margin-left: -1em;
+    }
+    
+    .skills_list{
+        padding-top: 2em;
+    }
+    .othertech{
+        padding-top: 4em;
+    }
+    .techgrid .tech{
+        padding: 1em 1em 1em 1em;
+        margin: 0;
+    }
+    .experience h2{
+        padding-top: 1%;
+    }
+    .vol-experience h2{
+        padding-top: 1em;
+    }
+    .education h2{
+        padding-top: 1em;
+    }
+    .projects h2{
+        padding-top: 0.4em;
+    }
+    .resume{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .resume a{
+        color: blueviolet;
+    }
+    .resume h2{
+        border-radius: 0.2em;
+    }
+    /* --Responsivness Styling for Timeline-- */
+    .timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+}

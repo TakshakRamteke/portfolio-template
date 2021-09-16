@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="46.855999"
+   height="46.855999"
+   viewBox="0 0 25.728631 25.727392"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="arduino-1.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   inkscape:export-filename="/home/takshak/projects/takshakramteke.github.io/images/icons/tech/arduino.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs50" />
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="8.6620581"
+     inkscape:cy="34.825009"
+     inkscape:window-width="1280"
+     inkscape:window-height="956"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg46"
+     width="46.856px" />
+  <linearGradient
+     id="a"
+     gradientUnits="userSpaceOnUse"
+     x1="-16.299999"
+     y1="16.070999"
+     x2="1354.901"
+     y2="16.070999"
+     gradientTransform="matrix(1,0,0,-1,16.8,702.696)">
+    <stop
+       offset=".117"
+       stop-color="#fff"
+       stop-opacity="0"
+       id="stop4" />
+    <stop
+       offset=".252"
+       stop-color="#c0d1d3"
+       stop-opacity=".153"
+       id="stop6" />
+    <stop
+       offset=".387"
+       stop-color="#91b3b7"
+       stop-opacity=".306"
+       id="stop8" />
+    <stop
+       offset=".52"
+       stop-color="#6d9fa3"
+       stop-opacity=".457"
+       id="stop10" />
+    <stop
+       offset=".65"
+       stop-color="#4d9195"
+       stop-opacity=".604"
+       id="stop12" />
+    <stop
+       offset=".776"
+       stop-color="#30888b"
+       stop-opacity=".746"
+       id="stop14" />
+    <stop
+       offset=".895"
+       stop-color="#148386"
+       stop-opacity=".881"
+       id="stop16" />
+    <stop
+       offset="1"
+       stop-color="#008184"
+       id="stop18" />
+  </linearGradient>
+  <linearGradient
+     id="b"
+     gradientUnits="userSpaceOnUse"
+     x1="-16.799999"
+     y1="16.070999"
+     x2="1355.401"
+     y2="16.070999"
+     gradientTransform="matrix(1,0,0,-1,16.8,702.696)">
+    <stop
+       offset="0"
+       stop-color="#fff"
+       stop-opacity="0"
+       id="stop21" />
+    <stop
+       offset=".153"
+       stop-color="#c0d1d3"
+       stop-opacity=".153"
+       id="stop23" />
+    <stop
+       offset=".306"
+       stop-color="#91b3b7"
+       stop-opacity=".306"
+       id="stop25" />
+    <stop
+       offset=".457"
+       stop-color="#6d9fa3"
+       stop-opacity=".457"
+       id="stop27" />
+    <stop
+       offset=".604"
+       stop-color="#4d9195"
+       stop-opacity=".604"
+       id="stop29" />
+    <stop
+       offset=".746"
+       stop-color="#30888b"
+       stop-opacity=".746"
+       id="stop31" />
+    <stop
+       offset=".881"
+       stop-color="#148386"
+       stop-opacity=".881"
+       id="stop33" />
+    <stop
+       offset="1"
+       stop-color="#008184"
+       id="stop35" />
+  </linearGradient>
+  <g
+     id="g57"
+     transform="matrix(0.01875,0,0,0.01875,-6.8875e-5,-0.00553525)">
+    <path
+       fill="#00979d"
+       stroke="#81c9cb"
+       stroke-width="0.932"
+       stroke-miterlimit="10"
+       d="m 1371.701,686.024 c 0,378.658 -306.972,685.605 -685.549,685.605 C 307.451,1371.629 0.5,1064.682 0.5,686.024 0.5,307.455 307.451,0.483 686.152,0.483 c 378.594,0.001 685.549,306.972 685.549,685.541 z"
+       id="path2" />
+    <path
+       opacity="0.5"
+       fill="url(#a)"
+       stroke="url(#b)"
+       stroke-miterlimit="10"
+       d="m 1371.701,686.595 c 0,378.65 -306.972,685.606 -685.549,685.606 C 307.451,1372.201 0.5,1065.23 0.5,686.595 0.5,308.019 307.451,1.048 686.152,1.048 c 378.594,0.016 685.549,306.97 685.549,685.547 z"
+       id="path38"
+       style="fill:url(#a);stroke:url(#b)" />
+    <g
+       fill="#ffffff"
+       id="g44">
+      <path
+         d="m 947.959,931.196 c -12.909,0 -26.127,-0.929 -39.127,-2.864 C 799.854,912.778 726.984,834.51 686.167,774.343 645.221,834.509 572.356,912.855 463.427,928.388 a 275.864,275.864 0 0 1 -39.133,2.785 c -67.753,0 -131.358,-25.217 -179.201,-71.003 -48.299,-46.165 -74.951,-108.114 -74.951,-174.171 0,-66.14 26.651,-128.004 75.021,-174.253 47.797,-45.793 111.449,-70.936 179.231,-70.936 12.918,0 26.067,0.928 39.023,2.783 108.932,15.535 181.794,93.813 222.743,153.99 40.825,-60.177 113.689,-138.432 222.658,-153.99 13,-1.863 26.148,-2.783 39.066,-2.783 67.753,0 131.401,25.208 179.197,70.936 48.345,46.249 74.937,108.113 74.937,174.253 0,66.057 -26.524,128.006 -74.868,174.171 -47.881,45.785 -111.434,71.026 -179.191,71.026 M 734.42,686.024 c 21.283,40.534 84.067,141.676 186.692,156.375 8.984,1.236 18.028,1.923 26.839,1.923 92.185,0 167.225,-71.002 167.225,-158.322 0,-87.32 -75.023,-158.321 -167.291,-158.321 -8.812,0 -17.853,0.629 -26.753,1.921 C 818.488,544.264 755.704,645.406 734.42,686.024 M 424.393,527.702 c -92.308,0 -167.36,70.998 -167.36,158.321 0,87.305 75.021,158.322 167.245,158.322 8.852,0 17.897,-0.688 26.879,-1.922 C 553.786,827.726 616.551,726.64 637.846,686.048 616.609,645.513 553.785,544.287 451.157,529.672 c -8.877,-1.341 -17.945,-1.97 -26.764,-1.97"
+         id="path40" />
+      <path
+         d="m 354.37,662.051 h 152.625 v 49.181 H 354.37 Z m 662.114,0 h -51.671 v -51.747 h -49.348 v 51.747 h -51.648 v 49.181 h 51.648 v 51.737 h 49.348 v -51.737 h 51.671 z"
+         id="path42" />
+    </g>
+  </g>
+</svg>
