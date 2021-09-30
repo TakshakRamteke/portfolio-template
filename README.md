@@ -4,7 +4,7 @@
 
 <br/>
 
-## How to use this : 
+## How to use this 😕 : 
 
 ## Step 1: 
 
@@ -25,6 +25,10 @@
 <div align="center">
     <img src="./images/releases.png">
 </div>
+
+or
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TakshakRamteke/portfolio-template)
 
 ## Step 2 :
 
